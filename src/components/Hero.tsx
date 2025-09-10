@@ -1,28 +1,34 @@
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
+import LanguageSwitcher from "./LanguageSwitcher";
 import heroImage from "@/assets/hero-brown-sugar.jpg";
 
 const Hero = () => {
+  const { t } = useLanguage();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-subtle" />
+      <div className="absolute top-6 right-6 z-20">
+        <LanguageSwitcher />
+      </div>
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
-              <span className="text-brown-rich">Kamika</span>
+              <span className="text-brown-rich">{t('hero.title.kamika')}</span>
               <br />
-              <span className="text-brown-medium">Brown Sugar</span>
+              <span className="text-brown-medium">{t('hero.title.brownSugar')}</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-lg">
-              Pure, natural sweetness crafted from premium sugar cane. 
-              Experience the rich, molasses flavor that transforms every recipe.
+              {t('hero.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-                Order Now
+                {t('hero.orderNow')}
               </Button>
               <Button variant="outline-warm" size="lg" className="text-lg px-8 py-6">
-                Learn More
+                {t('hero.learnMore')}
               </Button>
             </div>
           </div>
@@ -30,7 +36,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-warm rounded-3xl transform rotate-6 opacity-20"></div>
             <img 
               src={heroImage} 
-              alt="Premium Kamika brown sugar in elegant ceramic bowl"
+              alt={t('hero.altText')}
               className="w-full h-auto rounded-3xl shadow-warm transform hover:scale-105 transition-smooth"
             />
           </div>

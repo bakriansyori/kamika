@@ -1,26 +1,29 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { useLanguage } from "@/contexts/LanguageContext";
 import productTexture from "@/assets/product-texture.jpg";
 
 const Features = () => {
+  const { t } = useLanguage();
+
   const features = [
     {
-      title: "100% Natural",
-      description: "Pure brown sugar with no artificial additives or preservatives",
+      titleKey: "features.natural.title",
+      descriptionKey: "features.natural.description",
       icon: "🌿"
     },
     {
-      title: "Rich Flavor",
-      description: "Deep molasses notes that enhance baking and cooking",
+      titleKey: "features.flavor.title", 
+      descriptionKey: "features.flavor.description",
       icon: "✨"
     },
     {
-      title: "Premium Quality",
-      description: "Carefully selected sugar cane for optimal taste and texture",
+      titleKey: "features.quality.title",
+      descriptionKey: "features.quality.description", 
       icon: "👑"
     },
     {
-      title: "Sustainable",
-      description: "Ethically sourced from responsible farming practices",
+      titleKey: "features.sustainable.title",
+      descriptionKey: "features.sustainable.description",
       icon: "🌱"
     }
   ];
@@ -30,11 +33,10 @@ const Features = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Why Choose <span className="text-brown-rich">Kamika</span>?
+            {t('features.title')} <span className="text-brown-rich">{t('features.titleHighlight')}</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover the difference that premium quality and natural processing make 
-            in every granule of our brown sugar.
+            {t('features.subtitle')}
           </p>
         </div>
         
@@ -46,10 +48,10 @@ const Features = () => {
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">
-                  {feature.title}
+                  {t(feature.titleKey)}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  {feature.description}
+                  {t(feature.descriptionKey)}
                 </p>
               </CardContent>
             </Card>
@@ -61,23 +63,19 @@ const Features = () => {
             <div className="absolute inset-0 bg-gradient-gold rounded-3xl transform -rotate-3 opacity-30"></div>
             <img 
               src={productTexture} 
-              alt="Close-up texture of Kamika brown sugar crystals showing natural golden color"
+              alt={t('features.textureAlt')}
               className="w-full h-auto rounded-3xl shadow-warm"
             />
           </div>
           <div>
             <h3 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-              Crafted with <span className="text-brown-rich">Care</span>
+              {t('features.crafted.title')} <span className="text-brown-rich">{t('features.crafted.highlight')}</span>
             </h3>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Each batch of Kamika brown sugar is carefully processed to preserve 
-              the natural molasses content, giving you that distinctive rich flavor 
-              and beautiful golden-brown color that makes your recipes exceptional.
+              {t('features.crafted.description1')}
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From our fields to your kitchen, we maintain the highest standards 
-              of quality and purity, ensuring every spoonful delivers the authentic 
-              taste of premium brown sugar.
+              {t('features.crafted.description2')}
             </p>
           </div>
         </div>
