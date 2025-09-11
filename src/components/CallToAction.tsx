@@ -28,8 +28,8 @@ const CallToAction = () => {
             </Button>
             <div className="text-primary-foreground/80">
               <div className="flex items-center gap-2 mb-2">
-                
-                
+                <span className="text-2xl">📞</span>
+                <span className="font-medium">{t('cta.contactNumber')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl">⭐</span>

@@ -52,6 +52,7 @@ const translations = {
     'cta.titleHighlight': 'Natural Sweetness?',
     'cta.description': 'Join thousands of home bakers and professional chefs who have made Kamika brown sugar their secret ingredient for exceptional flavors.',
     'cta.orderNow': 'Order Kamika Now',
+    'cta.contactNumber': 'Call to order: +62 812 8709 8907',
     'cta.freeShipping': 'Free shipping on orders over $50',
     'cta.guarantee': 'Satisfaction guarantee',
 
@@ -116,6 +117,7 @@ const translations = {
     'cta.titleHighlight': 'Rasa Manis Alami?',
     'cta.description': 'Bergabunglah dengan ribuan pembuat kue rumahan dan koki profesional yang telah menjadikan gula merah Kamika sebagai bahan rahasia mereka untuk cita rasa luar biasa.',
     'cta.orderNow': 'Pesan Kamika Sekarang',
+    'cta.contactNumber': 'Hubungi untuk pesan: +62 812 8709 8907',
     'cta.freeShipping': 'Gratis ongkir untuk pembelian di atas $50',
     'cta.guarantee': 'Jaminan kepuasan',
 
