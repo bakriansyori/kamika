@@ -117,7 +117,7 @@ const translations = {
     'cta.description': 'Bergabunglah dengan ribuan pembuat kue rumahan dan koki profesional yang telah menjadikan gula merah Kamika sebagai bahan rahasia mereka untuk cita rasa luar biasa.',
     'cta.orderNow': 'Pesan Kamika Sekarang',
     'cta.freeShipping': 'Gratis ongkir untuk pembelian di atas $50',
-    'cta.guarantee': 'Jaminan kepuasan 30 hari',
+    'cta.guarantee': 'Jaminan kepuasan',
 
     // Footer
     'footer.description': 'Gula merah premium yang dibuat dengan perhatian untuk rasa dan kualitas yang luar biasa.',
