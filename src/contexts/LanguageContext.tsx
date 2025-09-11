@@ -53,7 +53,7 @@ const translations = {
     'cta.description': 'Join thousands of home bakers and professional chefs who have made Kamika brown sugar their secret ingredient for exceptional flavors.',
     'cta.orderNow': 'Order Kamika Now',
     'cta.freeShipping': 'Free shipping on orders over $50',
-    'cta.guarantee': '30-day satisfaction guarantee',
+    'cta.guarantee': 'Satisfaction guarantee',
 
     // Footer
     'footer.description': 'Premium brown sugar crafted with care for exceptional taste and quality.',
