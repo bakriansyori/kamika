@@ -1,11 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
-
 const CallToAction = () => {
-  const { t } = useLanguage();
-
-  return (
-    <section className="py-24 bg-gradient-warm relative overflow-hidden">
+  const {
+    t
+  } = useLanguage();
+  return <section className="py-24 bg-gradient-warm relative overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 w-20 h-20 bg-gold-warm rounded-full"></div>
         <div className="absolute bottom-20 right-20 w-16 h-16 bg-cream rounded-full"></div>
@@ -24,17 +23,13 @@ const CallToAction = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button 
-              variant="secondary" 
-              size="lg" 
-              className="text-lg px-12 py-6 bg-cream text-brown-rich hover:bg-gold-light shadow-glow"
-            >
+            <Button variant="secondary" size="lg" className="text-lg px-12 py-6 bg-cream text-brown-rich hover:bg-gold-light shadow-glow">
               {t('cta.orderNow')}
             </Button>
             <div className="text-primary-foreground/80">
               <div className="flex items-center gap-2 mb-2">
-                <span className="text-2xl">🚚</span>
-                <span className="font-medium">{t('cta.freeShipping')}</span>
+                
+                
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl">⭐</span>
@@ -44,8 +39,6 @@ const CallToAction = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CallToAction;
