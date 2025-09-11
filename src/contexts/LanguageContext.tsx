@@ -105,8 +105,8 @@ const translations = {
     // About section
     'about.title': 'Cerita',
     'about.titleHighlight': 'Kami',
-    'about.description1': 'Gula merah Kamika mewakili keahlian turun-temurun dalam budidaya dan pengolahan gula. Kami percaya bahwa pemanis terbaik berasal dari menghormati tanah dan metode tradisional yang telah disempurnakan dari waktu ke waktu.',
-    'about.description2': 'Tebu kami ditanam dalam kondisi optimal, dipanen pada saat kematangan puncak, dan diproses menggunakan teknik tradisional yang melestarikan kandungan molase alami. Ini memberikan Kamika rasa khas yang kaya dan warna yang indah.',
+    'about.description1': 'Gula merah Kamika mewakili keahlian turun-temurun dalam budidaya dan pengolahan gula. Kami percaya bahwa pemanis terbaik berasal dari menghormati tanah dan metode modern yang telah disempurnakan dari waktu ke waktu.',
+    'about.description2': 'Tebu kami ditanam dalam kondisi optimal, dipanen pada saat kematangan puncak, dan diproses menggunakan teknik modern yang melestarikan kandungan molase alami. Ini memberikan Kamika rasa khas yang kaya dan warna yang indah.',
     'about.description3': 'Setiap kemasan gula merah Kamika adalah bukti komitmen kami terhadap kualitas, keberlanjutan, dan kegembiraan murni dari rasa manis alami.',
     'about.shopKamika': 'Belanja Kamika',
     'about.fieldAlt': 'Ladang tebu emas saat matahari terbenam yang mewakili asal alami gula merah Kamika',
