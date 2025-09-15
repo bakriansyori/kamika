@@ -25,7 +25,12 @@ const About = () => {
               </p>
             </div>
             <div className="mt-8">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="text-lg px-8 py-6"
+                onClick={() => window.open('https://wa.me/6281287098907', '_blank')}
+              >
                 {t('about.shopKamika')}
               </Button>
             </div>
