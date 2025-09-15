@@ -82,10 +82,9 @@ ${formData.message}`;
                       <div>
                         <h3 className="font-semibold text-foreground mb-2">{t('contact.address')}</h3>
                         <p className="text-muted-foreground">
-                          Jl. Mawar No. 123<br />
-                          Kelurahan Sukamaju<br />
-                          Kecamatan Bandung Utara<br />
-                          Kota Bandung, Jawa Barat 40123
+                          Jalan Duren Tiga Selatan VII No. 43<br />
+                          Duren Tiga, Pancoran<br />
+                          Jakarta Selatan, Jakarta 12760
                         </p>
                       </div>
                     </div>
@@ -119,8 +118,7 @@ ${formData.message}`;
                       </div>
                       <div>
                         <h3 className="font-semibold text-foreground mb-2">{t('contact.email')}</h3>
-                        <p className="text-muted-foreground">info@kamikabrownsugar.com</p>
-                        <p className="text-muted-foreground">order@kamikabrownsugar.com</p>
+                        <p className="text-muted-foreground">kamikanusa@gmail.com</p>
                       </div>
                     </div>
                   </CardContent>
@@ -282,11 +280,11 @@ ${formData.message}`;
                     {t('contact.mapPlaceholder')}
                   </h3>
                   <p className="text-muted-foreground mb-4">
-                    Jl. Mawar No. 123, Bandung Utara, Kota Bandung
+                    Jalan Duren Tiga Selatan VII No. 43, Duren Tiga, Pancoran, Jakarta Selatan, Jakarta 12760
                   </p>
                   <Button 
                     variant="outline-warm"
-                    onClick={() => window.open('https://maps.google.com/?q=Jl.+Mawar+No.+123+Bandung', '_blank')}
+                    onClick={() => window.open('https://maps.google.com/?q=Jalan+Duren+Tiga+Selatan+VII+No.+43+Duren+Tiga+Pancoran+Jakarta+Selatan', '_blank')}
                   >
                     {t('contact.openInMaps')}
                   </Button>
