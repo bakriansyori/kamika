@@ -17,10 +17,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-gold-light">{t('footer.quickLinks')}</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><a href="#" className="hover:text-gold-light transition-colors">{t('footer.home')}</a></li>
-              <li><a href="#" className="hover:text-gold-light transition-colors">{t('footer.about')}</a></li>
+              <li><a href="/" className="hover:text-gold-light transition-colors">{t('footer.home')}</a></li>
+              <li><a href="/contact" className="hover:text-gold-light transition-colors">{t('footer.contact')}</a></li>
               <li><a href="#" className="hover:text-gold-light transition-colors">{t('footer.products')}</a></li>
-              <li><a href="#" className="hover:text-gold-light transition-colors">{t('footer.contact')}</a></li>
+              <li><a href="#" className="hover:text-gold-light transition-colors">{t('footer.about')}</a></li>
             </ul>
           </div>
 
