@@ -41,6 +41,16 @@ const translations = {
     // About section
     'about.title': 'Our',
     'about.titleHighlight': 'Story',
+    'about.subtitle': 'Discover the authentic story behind Indonesia\'s finest brown sugar',
+    'about.ourStory': 'Our Story',
+    'about.ourValues': 'Our Values',
+    'about.naturalValue': 'Natural & Pure',
+    'about.naturalDesc': 'We believe in preserving the natural goodness of sugar cane without any artificial additives or processing chemicals.',
+    'about.qualityValue': 'Premium Quality',
+    'about.qualityDesc': 'Every batch is carefully crafted and tested to ensure consistent quality and exceptional taste in every package.',
+    'about.communityValue': 'Community First',
+    'about.communityDesc': 'We work closely with local farmers and communities to create sustainable livelihoods and preserve traditional methods.',
+    'about.contactUs': 'Contact Us',
     'about.description1': 'Kamika brown sugar represents generations of expertise in sugar cultivation and processing. We believe that the best sweetener comes from respecting both the land and the traditional methods that have been perfected over time.',
     'about.description2': 'Our sugar cane is grown in optimal conditions, harvested at peak ripeness, and processed using time-honored techniques that preserve the natural molasses content. This gives Kamika its distinctive rich flavor and beautiful color.',
     'about.description3': 'Every package of Kamika brown sugar is a testament to our commitment to quality, sustainability, and the pure joy of natural sweetness.',
@@ -85,6 +95,8 @@ const translations = {
     'contact.phone': 'Phone',
     'contact.phoneNote': 'Available during business hours',
     'contact.email': 'Email',
+    'contact.hours': 'Operating Hours',
+    'contact.hoursDetails': 'Monday - Saturday: 8:00 AM - 6:00 PM\nSunday: 9:00 AM - 4:00 PM',
     'contact.businessHours': 'Business Hours',
     'contact.whatsappQuick': 'Quick WhatsApp Contact',
     'contact.whatsappDescription': 'Get instant response via WhatsApp',
@@ -101,6 +113,9 @@ const translations = {
     'contact.mapDescription': 'Visit our location or contact us for directions.',
     'contact.mapPlaceholder': 'Our Location',
     'contact.openInMaps': 'Open in Google Maps',
+
+    // Common
+    'common.back': 'Back',
   },
   id: {
     // Hero section
@@ -132,6 +147,16 @@ const translations = {
     // About section
     'about.title': 'Cerita',
     'about.titleHighlight': 'Kami',
+    'about.subtitle': 'Temukan cerita autentik di balik gula merah terbaik Indonesia',
+    'about.ourStory': 'Cerita Kami',
+    'about.ourValues': 'Nilai-Nilai Kami',
+    'about.naturalValue': 'Alami & Murni',
+    'about.naturalDesc': 'Kami percaya untuk menjaga kebaikan alami tebu tanpa bahan tambahan buatan atau bahan kimia pengolahan.',
+    'about.qualityValue': 'Kualitas Premium',
+    'about.qualityDesc': 'Setiap batch dibuat dan diuji dengan hati-hati untuk memastikan kualitas konsisten dan rasa luar biasa di setiap kemasan.',
+    'about.communityValue': 'Komunitas Utama',
+    'about.communityDesc': 'Kami bekerja sama dengan petani dan komunitas lokal untuk menciptakan mata pencaharian berkelanjutan dan melestarikan metode tradisional.',
+    'about.contactUs': 'Hubungi Kami',
     'about.description1': 'Gula merah Kamika mewakili keahlian turun-temurun dalam budidaya dan pengolahan gula. Kami percaya bahwa pemanis terbaik berasal dari menghormati tanah dan metode modern yang telah disempurnakan dari waktu ke waktu.',
     'about.description2': 'Tebu kami ditanam dalam kondisi optimal, dipanen pada saat kematangan puncak, dan diproses menggunakan teknik modern yang melestarikan kandungan molase alami. Ini memberikan Kamika rasa khas yang kaya dan warna yang indah.',
     'about.description3': 'Setiap kemasan gula merah Kamika adalah bukti komitmen kami terhadap kualitas, keberlanjutan, dan kegembiraan murni dari rasa manis alami.',
@@ -176,6 +201,8 @@ const translations = {
     'contact.phone': 'Telepon',
     'contact.phoneNote': 'Tersedia selama jam kerja',
     'contact.email': 'Email',
+    'contact.hours': 'Jam Operasional',
+    'contact.hoursDetails': 'Senin - Sabtu: 08:00 - 18:00\nMinggu: 09:00 - 16:00',
     'contact.businessHours': 'Jam Kerja',
     'contact.whatsappQuick': 'Kontak WhatsApp Cepat',
     'contact.whatsappDescription': 'Dapatkan respon instan via WhatsApp',
@@ -192,6 +219,9 @@ const translations = {
     'contact.mapDescription': 'Kunjungi lokasi kami atau hubungi kami untuk petunjuk arah.',
     'contact.mapPlaceholder': 'Lokasi Kami',
     'contact.openInMaps': 'Buka di Google Maps',
+
+    // Common
+    'common.back': 'Kembali',
   }
 };
 
