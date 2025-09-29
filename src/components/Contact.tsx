@@ -3,9 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { MapPin, Phone, Mail, Clock, MessageCircle, Send } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, MessageCircle, Send, Home } from "lucide-react";
 import { useState } from "react";
 import { toast } from "@/components/ui/sonner";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const { t } = useLanguage();
@@ -46,13 +47,28 @@ ${formData.message}`;
     <div className="min-h-screen bg-gradient-subtle">
       {/* Hero Section */}
       <section className="py-24 bg-gradient-warm text-primary-foreground">
-        <div className="container mx-auto px-6 text-center">
-          <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-            {t('contact.title')}
-          </h1>
-          <p className="text-xl max-w-3xl mx-auto opacity-90">
-            {t('contact.subtitle')}
-          </p>
+        <div className="container mx-auto px-6">
+          {/* Home Button */}
+          <div className="mb-8">
+            <Link to="/">
+              <Button 
+                variant="outline" 
+                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              >
+                <Home className="w-4 h-4 mr-2" />
+                Beranda
+              </Button>
+            </Link>
+          </div>
+          
+          <div className="text-center">
+            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+              {t('contact.title')}
+            </h1>
+            <p className="text-xl max-w-3xl mx-auto opacity-90">
+              {t('contact.subtitle')}
+            </p>
+          </div>
         </div>
       </section>
 
