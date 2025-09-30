@@ -60,11 +60,11 @@ const Features = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-gold rounded-3xl transform -rotate-3 opacity-30"></div>
+            <div className="absolute inset-0 bg-gradient-gold rounded-3xl transform -rotate-3 opacity-30 z-0"></div>
             <img 
               src={productTexture} 
               alt={t('features.textureAlt')}
-              className="w-full h-auto rounded-3xl shadow-warm"
+              className="relative z-10 w-full h-auto rounded-3xl shadow-warm"
             />
           </div>
           <div>
