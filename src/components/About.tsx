@@ -36,11 +36,11 @@ const About = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-warm rounded-3xl transform rotate-3 opacity-20"></div>
+            <div className="absolute inset-0 bg-gradient-warm rounded-3xl transform rotate-3 opacity-20 z-0"></div>
             <img 
               src={palmTrees} 
               alt={t('about.fieldAlt')}
-              className="w-full h-auto rounded-3xl shadow-warm"
+              className="relative z-10 w-full h-auto rounded-3xl shadow-warm transform hover:scale-105 transition-smooth"
             />
           </div>
         </div>
