@@ -20,8 +20,8 @@ const Products = () => {
       reviews: 127,
       features: ["100% Natural", "Rich Molasses", "Premium Quality"],
       featuresId: ["100% Alami", "Molase Kaya", "Kualitas Premium"],
-      description: "Perfect for baking, cooking, and sweetening beverages. Our signature brown sugar with deep, rich flavor.",
-      descriptionId: "Sempurna untuk memanggang, memasak, dan mempermanis minuman. Gula merah khas kami dengan rasa yang dalam dan kaya."
+      description: "Finely ground brown sugar that dissolves quickly. Perfect for delicate recipes and tea sweetening.",
+      descriptionId: "Gula merah yang digiling halus dan mudah larut. Sempurna untuk resep halus dan mempermanis teh."
     },
     {
       id: 2,
@@ -32,8 +32,8 @@ const Products = () => {
       reviews: 89,
       features: ["Certified Organic", "Sustainable", "Bulk Size"],
       featuresId: ["Organik Bersertifikat", "Berkelanjutan", "Ukuran Besar"],
-      description: "Certified organic brown sugar in bulk packaging. Ideal for professional bakers and large families.",
-      descriptionId: "Gula merah organik bersertifikat dalam kemasan besar. Ideal untuk pembuat roti profesional dan keluarga besar."
+      description: "Perfect for baking, cooking, and sweetening beverages. Our signature brown sugar with deep, rich flavor.",
+      descriptionId: "Sempurna untuk memanggang, memasak, dan mempermanis minuman. Gula merah khas kami dengan rasa yang dalam dan kaya."
     },
     {
       id: 3,
@@ -44,8 +44,8 @@ const Products = () => {
       reviews: 203,
       features: ["Fine Texture", "Quick Dissolve", "Compact"],
       featuresId: ["Tekstur Halus", "Mudah Larut", "Kompak"],
-      description: "Finely ground brown sugar that dissolves quickly. Perfect for delicate recipes and tea sweetening.",
-      descriptionId: "Gula merah yang digiling halus dan mudah larut. Sempurna untuk resep halus dan mempermanis teh."
+      description: "Certified organic brown sugar in bulk packaging. Ideal for professional bakers and large families.",
+      descriptionId: "Gula merah organik bersertifikat dalam kemasan besar. Ideal untuk pembuat roti profesional dan keluarga besar."
     }
   ];
 
