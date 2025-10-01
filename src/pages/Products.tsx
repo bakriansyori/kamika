@@ -13,10 +13,8 @@ const Products = () => {
   const products = [
     {
       id: 1,
-      name: "Kamika Premium Brown Sugar - 500g",
-      nameId: "Gula Merah Premium Kamika - 500g",
-      price: "$12.99",
-      priceId: "Rp 195.000",
+      name: "Kamika Premium Brown Sugar - 200g",
+      nameId: "Gula Merah Premium Kamika - 200g",
       image: heroImage,
       rating: 4.9,
       reviews: 127,
@@ -27,10 +25,8 @@ const Products = () => {
     },
     {
       id: 2,
-      name: "Kamika Organic Brown Sugar - 1kg",
-      nameId: "Gula Merah Organik Kamika - 1kg",
-      price: "$22.99",
-      priceId: "Rp 345.000",
+      name: "Kamika Premium Brown Sugar - 500g",
+      nameId: "Gula Merah Premium Kamika - 500g",
       image: textureImage,
       rating: 4.8,
       reviews: 89,
@@ -41,10 +37,8 @@ const Products = () => {
     },
     {
       id: 3,
-      name: "Kamika Fine Brown Sugar - 250g",
-      nameId: "Gula Merah Halus Kamika - 250g",
-      price: "$8.99",
-      priceId: "Rp 135.000",
+      name: "Kamika Premium Brown Sugar - 1kg",
+      nameId: "Gula Merah Premium Kamika - 1kg",
       image: heroImage,
       rating: 4.7,
       reviews: 203,
@@ -129,23 +123,16 @@ const Products = () => {
                   />
                 </div>
                 <CardHeader>
-                  <div className="flex items-start justify-between mb-2">
-                    <div className="flex-1">
-                      <CardTitle className="text-xl text-brown-rich mb-2">
-                        {t('footer.products') === 'Products' ? product.name : product.nameId}
-                      </CardTitle>
-                      <div className="flex items-center gap-2 mb-2">
-                        <div className="flex items-center gap-1">
-                          <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                          <span className="text-sm font-medium">{product.rating}</span>
-                        </div>
-                        <span className="text-sm text-muted-foreground">({product.reviews} reviews)</span>
+                  <div className="mb-2">
+                    <CardTitle className="text-xl text-brown-rich mb-2">
+                      {t('footer.products') === 'Products' ? product.name : product.nameId}
+                    </CardTitle>
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="flex items-center gap-1">
+                        <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                        <span className="text-sm font-medium">{product.rating}</span>
                       </div>
-                    </div>
-                    <div className="text-right">
-                      <p className="text-2xl font-bold text-gold-dark">
-                        {t('footer.products') === 'Products' ? product.price : product.priceId}
-                      </p>
+                      <span className="text-sm text-muted-foreground">({product.reviews} reviews)</span>
                     </div>
                   </div>
                   <div className="flex flex-wrap gap-2 mb-3">
