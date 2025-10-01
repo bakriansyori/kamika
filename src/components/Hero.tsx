@@ -18,7 +18,7 @@ const Hero = () => {
           <img 
             src={logo} 
             alt="Kamika Nusa Logo" 
-            className="h-16 w-auto"
+            className="h-24 w-auto"
           />
         </Link>
       </div>
