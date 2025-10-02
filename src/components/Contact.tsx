@@ -47,19 +47,8 @@ ${formData.message}`;
   return (
     <div className="min-h-screen bg-gradient-subtle">
       {/* Hero Section */}
-      <section className="py-24 bg-gradient-warm text-primary-foreground relative">
+      <section className="py-24 bg-gradient-warm text-primary-foreground">
         <div className="container mx-auto px-6">
-          {/* Logo */}
-          <div className="absolute top-6 right-6">
-            <Link to="/" className="block hover:scale-105 transition-smooth">
-              <img 
-                src={logo} 
-                alt="Kamika Nusa Logo" 
-                className="h-32 w-auto"
-              />
-            </Link>
-          </div>
-          
           {/* Home Button */}
           <div className="mb-8">
             <Link to="/">
@@ -284,6 +273,19 @@ ${formData.message}`;
               </Card>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Logo Section */}
+      <section className="py-12 bg-background">
+        <div className="container mx-auto px-6 flex justify-center">
+          <Link to="/" className="block hover:scale-105 transition-smooth">
+            <img 
+              src={logo} 
+              alt="Kamika Nusa Logo" 
+              className="h-40 w-auto"
+            />
+          </Link>
         </div>
       </section>
 
