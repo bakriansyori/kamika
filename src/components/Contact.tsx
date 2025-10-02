@@ -52,10 +52,10 @@ ${formData.message}`;
           <div className="mb-8">
             <Link to="/">
               <Button 
-                variant="outline" 
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                variant="secondary" 
+                className="bg-cream text-brown-rich hover:bg-gold-light shadow-warm"
               >
-                <Home className="w-4 h-4 mr-2" />
+                <Home className="w-5 h-5 mr-2" />
                 Beranda
               </Button>
             </Link>
