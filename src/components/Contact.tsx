@@ -273,19 +273,17 @@ ${formData.message}`;
               </Card>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Logo Section */}
-      <section className="py-12 bg-background">
-        <div className="container mx-auto px-6 flex justify-center">
-          <Link to="/" className="block hover:scale-105 transition-smooth">
-            <img 
-              src={logo} 
-              alt="Kamika Nusa Logo" 
-              className="h-40 w-auto"
-            />
-          </Link>
+          
+          {/* Logo */}
+          <div className="mt-12 flex justify-center">
+            <Link to="/" className="block hover:scale-105 transition-smooth">
+              <img 
+                src={logo} 
+                alt="Kamika Nusa Logo" 
+                className="h-32 w-auto"
+              />
+            </Link>
+          </div>
         </div>
       </section>
 
