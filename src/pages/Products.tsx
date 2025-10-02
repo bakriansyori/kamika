@@ -87,7 +87,7 @@ const Products = () => {
       <section className="py-24 bg-gradient-warm text-primary-foreground relative">
         <div className="container mx-auto px-6">
           {/* Logo */}
-          <div className="absolute top-6 left-6">
+          <div className="absolute top-6 right-6">
             <Link to="/" className="block hover:scale-105 transition-smooth">
               <img 
                 src={logo} 
